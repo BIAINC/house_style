@@ -10,6 +10,10 @@ Metrics/BlockLength:
 Metrics/ModuleLength:
   Enabled: false
 
+RSpec/EmptyExampleGroup:
+  CustomIncludeMethods:
+    - Then
+
 RSpec/ExampleLength:
   Enabled: false
 RSpec/NotToNot:

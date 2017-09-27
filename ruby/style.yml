@@ -4,6 +4,12 @@ Style/BlockDelimiters:
     - before
     - given
     - given!
+    - Given
+    - Given!
+    - When
+    - Then
+    - And
+    - Invariant
     - watch
     - times
     - try
