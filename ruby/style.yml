@@ -36,8 +36,6 @@ Style/Copyright:
   Enabled: false
 Style/Documentation:
   Enabled: false
-Style/Encoding:
-  EnforcedStyle: never
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
