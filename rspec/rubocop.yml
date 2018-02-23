@@ -16,6 +16,10 @@ RSpec/EmptyExampleGroup:
 
 RSpec/ExampleLength:
   Enabled: false
+
+RSpec/NestedGroups:
+  Max: 7
+
 RSpec/NotToNot:
   EnforcedStyle: not_to
 

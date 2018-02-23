@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.3.2
+  - Removed checks for various metrics in specs (blocklength, classlength)
+  - Updated rubocop to 0.52.1 and rubocop-rspec to 1.23.0
+  - Removed obsolete checks
+
 ## 1.3.0
 
 - updated rubocop to 0.46.0

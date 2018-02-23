@@ -1,6 +1,13 @@
 Metrics/BlockLength:
   Exclude:
     - 'lib/tasks/**/*'
+    - 'spec/**/*'
+Metrics/BlockNesting:
+  Exclude:
+    - 'spec/**/*'
+Metrics/ClassLength:
+  Exclude:
+    - 'spec/**/*'
 Metrics/LineLength:
   Max: 120
   Details: >-
@@ -9,3 +16,9 @@ Metrics/LineLength:
     the flow can be hard because it becomes harder to scan back and
     locate the start of the next line. 80 characters is generally a bit
     too short; 120 characters is a good compromise.
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*'
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*'
