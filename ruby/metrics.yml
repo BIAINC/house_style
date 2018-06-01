@@ -10,6 +10,7 @@ Metrics/ClassLength:
     - 'spec/**/*'
 Metrics/LineLength:
   Max: 120
+  IgnoredPatterns: ['^#']
   Details: >-
     If lines are too short, methods become hard to read because you must
     constantly jump from line to line. If lines are too long, following
